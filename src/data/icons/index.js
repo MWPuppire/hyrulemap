@@ -3,33 +3,33 @@ import Leaflet from 'leaflet';
 const shrineIcon = Leaflet.icon({
   className: 'pulsing-icon',
   iconSize: [27, 26],
-  iconUrl: '/images/icons/shrine.png'
+  iconUrl: 'images/icons/shrine.png'
 });
 
 const stableIcon = Leaflet.icon({
   iconSize: [30, 30],
-  iconUrl: '/images/icons/stable.png'
+  iconUrl: 'images/icons/stable.png'
 });
 
 const towerIcon = Leaflet.icon({
   className: 'blue-glow',
   iconSize: [28, 38],
-  iconUrl: '/images/icons/tower.png'
+  iconUrl: 'images/icons/tower.png'
 });
 
 const townIcon = Leaflet.icon({
   iconSize: [30, 30],
-  iconUrl: '/images/icons/town.png'
+  iconUrl: 'images/icons/town.png'
 });
 
 const korokIcon = Leaflet.icon({
   iconSize: [24, 24],
-  iconUrl: '/images/icons/korok.png'
+  iconUrl: 'images/icons/korok.png'
 });
 
 const memoryIcon = Leaflet.icon({
   iconSize: [30, 30],
-  iconUrl: '/images/icons/memory.png'
+  iconUrl: 'images/icons/memory.png'
 });
 
 export default {

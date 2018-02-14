@@ -17,8 +17,6 @@ const maxBounds = [
 const position = [70.505, -75.09];
 
 export default class MapContainer extends Component {
-  // For debugging points add this to <Map>
-  // `onClick={(event) => console.log(event.latlng)}`
   render() {
     return (
       <Map
@@ -28,9 +26,9 @@ export default class MapContainer extends Component {
         onClick={(event) => console.log([event.latlng.lat, event.latlng.lng])}
        >
         <TileLayer
-          minZoom={3}
+          minZoom={0}
           maxZoom={6}
-          url='/images/tiles/{z}/{x}/{y}.png'
+          url='images/tiles/{z}/{x}/{y}.png'
         />
 
         <MapIconsContainer />

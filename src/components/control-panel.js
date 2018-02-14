@@ -3,7 +3,6 @@ import React from 'react';
 import './control-panel.css';
 import icons from '../data/icons';
 
-// Actions
 export const setActiveIconTypes = (iconType) => {
   return {
     iconType,
